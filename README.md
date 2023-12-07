@@ -14,6 +14,16 @@
 
 > Un README qui détaille votre parcours de migration, les étapes, les + et les -, les docs / réponses SO utilisées...
 
+## Installation
+
+```
+npm install
+```
+
+```
+npm build
+```
+
 
 ## Résultat : 
 
@@ -24,7 +34,11 @@ Les modules "CLI" et "File system" fonctionne toujours avec commander. J'ai éga
 
 ### Exécution des commandes
 Avec commander : 
+```
 node src/packages/cli.mjs --filepath src/playground/test.mjs  --fileout src/playground/resultat.md 
+```
 
 Avec nest-commander : 
+```
 node dist/packages/Nestcommand/main.js --filepath src/playground/test.mjs --fileout src/playground/testnest.md
+```
